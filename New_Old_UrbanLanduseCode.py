@@ -1,9 +1,9 @@
-# How to use in ArcGIS Field Caculater: list = {1:'A'}   list.get(!Field!)'
+# How to use in ArcGIS Field Caculater: Dic = {1:'A'}   Dic.get(!Field!)'
 # Alt Shift I to move cursor to each line's end, then press HOME to move to the begin.
 # Ctrl + -> Arrow Key to move by word unit
 # 'X' in old code(不确定用地) does not exist in new code, keep 'X'.
 # C9 is same as C8
-Old2NewCodeList = {
+Old2NewCodeDic = {
     'R':'R',
     'R1':'R1',
     'R11':'R11',
@@ -136,7 +136,7 @@ Old2NewCodeList = {
     'E8':'H5'
     }
 # China 2009 urban land use code to name GBJ137-90
-Code2Name2009List = {
+Code2Name2009Dic = {
     'Ⅰ':'城乡居民点建设用地',
     'A':'城市建设用地',
     'B':'镇建设用地',
@@ -273,7 +273,7 @@ Code2Name2009List = {
     }
 
 # China 2011 urban land use code to name, GB 50137-2011
-Code2Name2011List = {
+Code2Name2011Dic = {
     'A':'公共管理与公共服务用地',  
     'A1':'行政办公用地',  
     'A2':'文化设施用地',  
